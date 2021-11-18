@@ -1,0 +1,37 @@
+body {
+    background-color: pink;
+}
+.button {
+    background-color: #b66ca0;
+    border: none;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.content{
+    font-family: 'Trebuchet MS';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    text-align: center;
+    width: 80%;
+    border: 0px solid black;
+    border-radius: 200px;
+    
+    background: rgba(238, 128, 128, 0.6);
+    animation-name: example;
+    animation-duration: 2s;
+    color:rgb(251, 255, 251);
+}
+.Box{
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS'; font-size: 16px;
+    color:white;
+}
